@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Anek Malaya', sans-serif;
+    background-color: #f8f9fa;
+    overflow-x: hidden;
+}
+
+table{
+    width: 100vw;
+    text-align: center;
+   
+    
+}
+.head{
+    background-color: #10502f;
+    color: #ffffff;
+    box-shadow: 0px 2px 4px #888888;
+    border-collapse: collapse;
+    font-size: 0.72em;
+    position: fixed;
+
+}
+#logo td{
+    height: 48px;
+    padding-top: 4px;
+}
+td{
+    height: 30px;
+    width: 80px;
+    color: #9db7a9
+}
+
+.nav-conteudo-lateral{
+    width: 200px;
+}
+
+.nav-destacado{
+    border-bottom: 3px solid #ffffff;
+    color: #ffffff
+}
+.nav-destacado:hover{
+    background-color: #0e482a;
+   cursor: pointer;
+}
+.tabela-temporada{
+    position: absolute;
+    margin-top: 87px;
+    z-index: -1;
+    border: 1px solid #e9eaeb;
+    border-top: none;
+    border-bottom: none;
+    width: 50vw;
+    margin-left: 25%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+   
+}
+.tabela-temporada th{
+   border-top: 1px solid#e0e0e0;
+   font-weight: 100;
+   color: #70758d;
+   padding: 4px;
+   height: 35px;
+}
+.tabela-temporada td{
+    border-top: 1px solid#e0e0e0;
+    font-weight: 100;
+    color: #000000;
+    padding: 4px;
+    height: 42px;
+    font-size: 1.2em;
+}
+#tabela-temporada-head{
+
+    padding: 15px;
+    padding-left: 20px;
+    background-color: #f1f3f4;
+    text-align: left;
+    color: #70758d;
+    font-size: 0.7em;
+}
+
+#ano{
+    font-weight: 600;
+    color: #4285f4;
+}
+
+a:link{
+    text-decoration: none;
+    color: #70758d;
+
+}
+a:visited{
+    
+    color: #70758d;
+}
+.tabela-temporada img{
+    width: 25px;
+}
+.tabela-coluna-borda{
+    border-top: none !important;
+}
+.tituto-clube{
+    width: 2%;
+    text-align: left;
+}
+.titulo-ultimas-cincos{
+    width: 50%;
+}
+.titulo-ultimas-cincos img{
+    width: 17px;
+}
+.tabela-coluna-bordas{
+    width: 60%;
+    text-align: right;
+}
+.borda-azul{
+    border-left: 3px solid #4285f4;
+}
+.borde-laranja {
+    border-left: 3px solid #fa7b17;
+}
+.borde-verde {
+    border-left: 3px solid #34a853;
+}
+.borde-vermelho{
+    border-left: 3px solid #ea4335;
+}
+.legenda table{
+    width: 50vw;
+    margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #e9eaeb;
+    border-radius: 3px;
+    padding: 15px;
+    text-align: left;
+    background-color: #f8f9fa;
+}
+.legenda th{
+    border-top: none;
+    font-size: 1em;
+    color: #999999;
+    font-weight: 700;
+}
+.legenda img{
+    width: 14px;
+}
+.legenda td{
+    border-top: none;
+    font-size: 1em;
+    height: 3px;
+    width: 50%;
+}
